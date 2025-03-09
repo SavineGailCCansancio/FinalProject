@@ -1,0 +1,159 @@
+*{
+  font-family:"Afacad Flux", sans-serif;
+}
+
+
+
+body{
+  margin: 0px;
+}
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+h2{
+margin-top: 50px;
+text-align: center;
+font-size: 30px;
+font-family: "PT Serif", serif;
+font-weight: 400;
+}
+
+h3{
+text-align: center;
+font-weight: 400;
+font-size:30px;
+}
+.navbar{
+position: sticky;
+top: 0;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a:hover{
+  background-color: #cccccc;
+}
+
+.navbar a:active {
+  background-color: #789DBC;
+}
+.navbar li{
+  float: right;
+  font-size: 18px;
+  margin-top: 7px;
+  
+}
+
+.navbar p{
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.topheaderpicaboutus {
+  float: center;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transform: skewY(10deg);
+}
+
+img[src$=".jpeg"] {
+  border: 2px solid #61677A;
+  border-radius: 10px;
+}
+
+.audiofile {
+  width: 100%;
+  text-align: center;
+  margin: 15px;
+}
+
+audio {
+  width: 60%;
+  max-width: 700px;
+}
+
+.desc{
+  margin-left: 300px;
+  margin-right:300px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.quizcontainer { 
+  font-family:"Afacad Flux", sans-serif; 
+  width: 50%; 
+  margin: auto; 
+  padding: 20px; 
+  border: 20px solid #ddd; 
+  border-radius: 10px; 
+}
+
+.quizcontainer h2{ 
+  font-family:"Afacad Flux", sans-serif; 
+}
+
+.question { 
+  font-family:"Afacad Flux", sans-serif; 
+  font-size: 18px; 
+  margin-bottom: 10px; 
+}
+
+.options button {  
+  font-family:"Afacad Flux", sans-serif;
+  display: block; 
+  margin: 5px auto; 
+  padding: 10px; 
+  width: 100%; 
+}
+
+.correct { 
+  background-color: lightgreen; 
+}
+
+.incorrect { 
+  background-color: lightcoral; 
+}
+
+footer{
+background-color: black;
+color: white;
+font-size: 20px;
+bottom: 0;
+width: 100%;
+text-align: center;
+font-size: smaller;
+padding: 30px 0;
+}
+
+footer h3{
+font-weight: bolder;
+}
+
+footer p{
+font-weight: lighter;
+}
